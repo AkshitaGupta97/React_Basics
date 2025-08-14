@@ -3,6 +3,7 @@
 //import Hooks from "./States_hooks"
 
 import InputField from "./InputFiled_data"
+import ControlledComponenets from "./ControlledComponents"
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
      {/* <Hooks /> */}
 
         <InputField />
+
+        <ControlledComponenets />
     </>
   )
 }
