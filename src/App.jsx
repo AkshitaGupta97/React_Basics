@@ -2,8 +2,11 @@
 //import PropJsx from "./Props_Jsx"
 //import Hooks from "./States_hooks"
 
-import InputField from "./InputFiled_data"
-import ControlledComponenets from "./ControlledComponents"
+//import InputField from "./InputFiled_data"
+//import ControlledComponenets from "./ControlledComponents"
+//import CheckBox from "./HandleCheckBox"
+//import HandleRadio from "./HandleRadioBtn"
+import LoopArray from "./ArrayLoops"
 
 function App() {
 
@@ -29,9 +32,17 @@ function App() {
       
      {/* <Hooks /> */}
 
-        <InputField />
+       {/*
+           <InputField />
 
-        <ControlledComponenets />
+          <ControlledComponenets />
+
+          <CheckBox />
+
+          <HandleRadio />
+       */}
+
+       <LoopArray />
     </>
   )
 }
