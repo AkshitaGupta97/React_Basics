@@ -3,6 +3,7 @@
 //import Hooks from "./States_hooks"
 
 import ClockComponent from "./ClockComponent"
+import NestedCollegeData from "./NestedLoop"
 
 //import InputField from "./InputFiled_data"
 //import ControlledComponenets from "./ControlledComponents"
@@ -47,6 +48,8 @@ function App() {
        {/*<LoopArray /> */}
 
        <ClockComponent />
+       
+       <NestedCollegeData />
     </>
   )
 }
