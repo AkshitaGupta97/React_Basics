@@ -2,14 +2,16 @@
 //import PropJsx from "./Props_Jsx"
 //import Hooks from "./States_hooks"
 
+import ClockComponent from "./ClockComponent"
+
 //import InputField from "./InputFiled_data"
 //import ControlledComponenets from "./ControlledComponents"
 //import CheckBox from "./HandleCheckBox"
 //import HandleRadio from "./HandleRadioBtn"
-import LoopArray from "./ArrayLoops"
+//import LoopArray from "./ArrayLoops"
+
 
 function App() {
-
   return (
     <>
       <h1>React Basics</h1>
@@ -42,7 +44,9 @@ function App() {
           <HandleRadio />
        */}
 
-       <LoopArray />
+       {/*<LoopArray /> */}
+
+       <ClockComponent />
     </>
   )
 }

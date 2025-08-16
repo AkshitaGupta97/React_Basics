@@ -34,13 +34,11 @@ function LoopArray(){
             <h2 style={{color:"yellow"}}>Array Loop jsx</h2>
 
             {
-                userArr.map((user)=> {
-                <div key={user.id}>
-                    console.log(name);
-                    <ArrayLoopUser data={user} />
-                    
-                </div> 
-                })
+                userArr.map((user) => (
+                    <div key={user.id}>
+                        <ArrayLoopUser data={user} />
+                    </div>
+                ))
             }
 
 
@@ -56,14 +54,14 @@ function LoopArray(){
                 </thead>
                 <tbody>
                    {
-                    userArr.map((user) => {
+                    userArr.map((user) => (
                          <tr key={user.id}>
                             <td>{user.id}</td>
                             <td>{user.name}</td>
                             <td>{user.age}</td>
                             <td>{user.email}</td>
                         </tr>
-                    })
+                    ))
                    }
                 </tbody>
             </table>
