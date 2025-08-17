@@ -3,7 +3,8 @@
 //import Hooks from "./States_hooks"
 
 import ClockComponent from "./ClockComponent"
-import NestedCollegeData from "./NestedLoop"
+//import NestedCollegeData from "./NestedLoop"
+import UseEffectData from "./UseEffect"
 
 //import InputField from "./InputFiled_data"
 //import ControlledComponenets from "./ControlledComponents"
@@ -49,7 +50,9 @@ function App() {
 
        <ClockComponent />
        
-       <NestedCollegeData />
+      {/*  <NestedCollegeData /> */}
+
+       <UseEffectData />
     </>
   )
 }
