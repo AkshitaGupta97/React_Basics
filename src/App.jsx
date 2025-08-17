@@ -3,6 +3,7 @@
 //import Hooks from "./States_hooks"
 
 import ClockComponent from "./ClockComponent"
+import LifeCycle from "./LifeCycleOfComponenet"
 //import NestedCollegeData from "./NestedLoop"
 import UseEffectData from "./UseEffect"
 
@@ -53,6 +54,9 @@ function App() {
       {/*  <NestedCollegeData /> */}
 
        <UseEffectData />
+
+       <LifeCycle />
+       
     </>
   )
 }
